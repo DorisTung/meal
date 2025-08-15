@@ -9,7 +9,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("f7701fe8887e35afb29f030e15289bed5cbc0849d6181a76a9d53831bb942427:sk_QyX8xObAYUWmeNRneX3VR@db.prisma.io:5432/?sslmode=require")
+  url      = env("accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19ReVg4eE9iQVlVV21lTlJuZVgzVlIiLCJhcGlfa2V5IjoiMDFLMlBHSlJXWkZKNUdYWUcwRzc0RkswM04iLCJ0ZW5hbnRfaWQiOiJmNzcwMWZlODg4N2UzNWFmYjI5ZjAzMGUxNTI4OWJlZDVjYmMwODQ5ZDYxODFhNzZhOWQ1MzgzMWJiOTQyNDI3IiwiaW50ZXJuYWxfc2VjcmV0IjoiMzA2OWUxNGQtNmEzZC00NmU3LTk3MzItZjQzYzdjODkxOWEyIn0.y-XSOgbEEyZZN0RwoZ79eV0T4gBq0xcOO-pP0K7V7yQ")
 }
 
 model Restaurant {
