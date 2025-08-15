@@ -45,7 +45,7 @@ function HomePageContent() {
         {/* 主題選取選單 - 浮動在右下角 */}
         <div className="fixed bottom-4 right-4 z-50">
           <Select value={theme} onValueChange={(value: "mario" | "synology") => setTheme(value)}>
-            <SelectTrigger className="theme-selector-trigger border-0 bg-transparent w-[120px] sm:w-[140px] shadow-lg rounded-md">
+            <SelectTrigger className="theme-selector-trigger border-0 bg-transparent w-[130px] sm:w-[150px] shadow-lg rounded-md">
               <Palette className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
               <SelectValue />
             </SelectTrigger>
