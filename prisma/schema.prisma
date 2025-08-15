@@ -3,11 +3,13 @@
 
 generator client {
   provider = "prisma-client-js"
+  // 若雲端執行期有相容性問題再打開下面這行（通常不用）
+  // binaryTargets = ["native", "linux-arm64-openssl-3.0.x", "linux-openssl-3.0.x"]
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider = "postgresql"
+  url      = env("postgres://f7701fe8887e35afb29f030e15289bed5cbc0849d6181a76a9d53831bb942427:sk_QyX8xObAYUWmeNRneX3VR@db.prisma.io:5432/?sslmode=require")
 }
 
 model Restaurant {
